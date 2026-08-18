@@ -1,11 +1,562 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - Cristopher Arias</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <!-- ==============================
+         NAVEGACIÓN
+    =============================== -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Cristopher
+            </div>
+
+            <ul class="menu">
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-mi">Sobre Mí</a>
+                </li>
+
+                <li>
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+
+                <li>
+                    <a href="#contactenos">Contáctenos</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ==============================
+             INICIO / HERO
+        =============================== -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-overlay">
+
+                <div class="hero-content">
+
+                    <img
+                        src="img/perfil.jpg"
+                        alt="Foto de Cristopher Arias"
+                        class="foto-perfil"
+                    >
+
+                    <p class="saludo">
+                        Hola, soy
+                    </p>
+
+                    <h1>
+                        Cristopher Arias
+                    </h1>
+
+                    <h2>
+                        Estudiante de Programación
+                    </h2>
+
+                    <p class="descripcion-hero">
+                        Bienvenido a mi portafolio personal. Aquí podrás
+                        conocer un poco sobre mí, mis habilidades y los
+                        proyectos que he realizado.
+                    </p>
+
+                    <div class="hero-botones">
+
+                        <a href="#proyectos" class="btn">
+                            Ver mis proyectos
+                        </a>
+
+                        <a href="#contactenos" class="btn btn-secundario">
+                            Contáctame
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==============================
+             SOBRE MÍ
+        =============================== -->
+        <section id="sobre-mi" class="section">
+
+            <div class="contenedor">
+
+                <h2 class="titulo-seccion">
+                    Sobre mí
+                </h2>
+
+                <p class="subtitulo-seccion">
+                    Conoce un poco más sobre quién soy y mis objetivos.
+                </p>
+
+
+                <div class="sobre-mi-container">
+
+                    <div class="sobre-mi-texto">
+
+                        <h3>
+                            ¿Quién soy?
+                        </h3>
+
+                        <p>
+                            Mi nombre es Cristopher Arias. Soy estudiante
+                            interesado en el área de programación y
+                            desarrollo de software.
+                        </p>
+
+                        <p>
+                            Me gusta aprender nuevas tecnologías y mejorar
+                            mis conocimientos mediante la creación de
+                            proyectos prácticos.
+                        </p>
+
+                        <p>
+                            Mi objetivo es seguir desarrollando mis
+                            habilidades y adquirir experiencia para crecer
+                            profesionalmente en el área de tecnología.
+                        </p>
+
+                    </div>
+
+
+                    <div class="datos-personales">
+
+                        <div class="dato">
+                            <strong>Nombre</strong>
+                            <span>Cristopher Arias</span>
+                        </div>
+
+                        <div class="dato">
+                            <strong>Área</strong>
+                            <span>Programación y desarrollo de software</span>
+                        </div>
+
+                        <div class="dato">
+                            <strong>Educación</strong>
+                            <span>Estudiante de programación</span>
+                        </div>
+
+                        <div class="dato">
+                            <strong>Intereses</strong>
+                            <span>Programación, tecnología y desarrollo web</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==============================
+                     HABILIDADES
+                =============================== -->
+
+                <div class="habilidades-container">
+
+                    <h3>
+                        Mis habilidades
+                    </h3>
+
+                    <div class="habilidades">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                        <span>SQL Server</span>
+                        <span>Eclipse</span>
+                        <span>Git</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==============================
+             PROYECTOS
+        =============================== -->
+        <section id="proyectos" class="section section-gray">
+
+            <div class="contenedor">
+
+                <h2 class="titulo-seccion">
+                    Mis proyectos
+                </h2>
+
+                <p class="subtitulo-seccion">
+                    Algunos de los proyectos que he realizado durante mi
+                    aprendizaje.
+                </p>
+
+
+                <div class="proyectos-container">
+
+
+                    <!-- Proyecto 1 -->
+                    <article class="proyecto">
+
+                        <div class="proyecto-imagen">
+
+                            <img
+                                src="img/proyecto1.jpg"
+                                alt="Proyecto de página web"
+                            >
+
+                        </div>
+
+                        <div class="proyecto-contenido">
+
+                            <span class="proyecto-categoria">
+                                Desarrollo Web
+                            </span>
+
+                            <h3>
+                                Página Web
+                            </h3>
+
+                            <p>
+                                Proyecto de desarrollo de una página web
+                                utilizando HTML y CSS, aplicando diseño
+                                responsive y una estructura organizada.
+                            </p>
+
+                            <div class="proyecto-tecnologias">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+
+                            </div>
+
+                            <button type="button" onclick="verProyecto('Página Web')">
+                                Ver proyecto
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Proyecto 2 -->
+                    <article class="proyecto">
+
+                        <div class="proyecto-imagen">
+
+                            <img
+                                src="img/proyecto2.jpg"
+                                alt="Proyecto de programación"
+                            >
+
+                        </div>
+
+                        <div class="proyecto-contenido">
+
+                            <span class="proyecto-categoria">
+                                Programación
+                            </span>
+
+                            <h3>
+                                Aplicación en Java
+                            </h3>
+
+                            <p>
+                                Proyecto realizado para practicar lógica
+                                de programación, estructuras de datos y
+                                programación orientada a objetos.
+                            </p>
+
+                            <div class="proyecto-tecnologias">
+
+                                <span>Java</span>
+                                <span>Eclipse</span>
+
+                            </div>
+
+                            <button type="button" onclick="verProyecto('Aplicación en Java')">
+                                Ver proyecto
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Proyecto 3 -->
+                    <article class="proyecto">
+
+                        <div class="proyecto-imagen">
+
+                            <img
+                                src="img/proyecto3.jpg"
+                                alt="Proyecto de base de datos"
+                            >
+
+                        </div>
+
+                        <div class="proyecto-contenido">
+
+                            <span class="proyecto-categoria">
+                                Base de Datos
+                            </span>
+
+                            <h3>
+                                Sistema de Base de Datos
+                            </h3>
+
+                            <p>
+                                Proyecto enfocado en el diseño y manejo de
+                                bases de datos utilizando consultas SQL y
+                                SQL Server.
+                            </p>
+
+                            <div class="proyecto-tecnologias">
+
+                                <span>SQL</span>
+                                <span>SQL Server</span>
+
+                            </div>
+
+                            <button type="button" onclick="verProyecto('Sistema de Base de Datos')">
+                                Ver proyecto
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==============================
+             CONTACTO
+        =============================== -->
+        <section id="contactenos" class="section">
+
+            <div class="contenedor">
+
+                <h2 class="titulo-seccion">
+                    Contáctenos
+                </h2>
+
+                <p class="subtitulo-seccion">
+                    Si deseas comunicarte conmigo, puedes utilizar
+                    cualquiera de los siguientes medios.
+                </p>
+
+
+                <div class="contacto-container">
+
+
+                    <!-- Información -->
+                    <div class="contacto-info">
+
+                        <h3>
+                            Ponte en contacto
+                        </h3>
+
+                        <p>
+                            Estoy disponible para recibir consultas,
+                            comentarios o información sobre mis proyectos.
+                        </p>
+
+
+                        <div class="contacto-dato">
+
+                            <strong>
+                                Nombre
+                            </strong>
+
+                            <span>
+                                Cristopher Arias
+                            </span>
+
+                        </div>
+
+
+                        <div class="contacto-dato">
+
+                            <strong>
+                                Correo
+                            </strong>
+
+                            <span>
+                                cristopher@email.com
+                            </span>
+
+                        </div>
+
+
+                        <div class="contacto-dato">
+
+                            <strong>
+                                Teléfono
+                            </strong>
+
+                            <span>
+                                +506 0000-0000
+                            </span>
+
+                        </div>
+
+
+                        <div class="contacto-dato">
+
+                            <strong>
+                                Ubicación
+                            </strong>
+
+                            <span>
+                                Costa Rica
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Formulario -->
+                    <form id="formContacto">
+
+                        <div class="form-group">
+
+                            <label for="nombre">
+                                Nombre
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                placeholder="Escriba su nombre"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="correo">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                type="email"
+                                id="correo"
+                                name="correo"
+                                placeholder="ejemplo@correo.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="asunto">
+                                Asunto
+                            </label>
+
+                            <input
+                                type="text"
+                                id="asunto"
+                                name="asunto"
+                                placeholder="Escriba el asunto"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="mensaje">
+                                Mensaje
+                            </label>
+
+                            <textarea
+                                id="mensaje"
+                                name="mensaje"
+                                rows="6"
+                                placeholder="Escriba su mensaje"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn"
+                        >
+                            Enviar mensaje
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==============================
+         FOOTER
+    =============================== -->
+    <footer>
+
+        <div class="footer-container">
+
+            <p>
+                &copy; <span id="anio"></span> Cristopher Arias. Todos los derechos reservados.
+            </p>
+
+            <p>
+                Portafolio Personal
+            </p>
+
+        </div>
+
+    </footer>
     
+    <script src="js/script.js"></script>
+
+
+
 </body>
+
 </html>
